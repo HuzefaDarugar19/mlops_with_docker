@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/win/Desktop/project-2/model_ser_track/mlruns/229863198450925491/a953dc0340d34d558023da274af9e85d/artifacts
+end_time: 1758395129951
+entry_point_name: ''
+experiment_id: '229863198450925491'
+lifecycle_stage: active
+run_id: a953dc0340d34d558023da274af9e85d
+run_name: prediction-requests
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758395129834
+status: 3
+tags: []
+user_id: win
