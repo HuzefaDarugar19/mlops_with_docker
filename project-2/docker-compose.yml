@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    command: >
+      mlflow server
+      --backend-store-uri sqlite:///mlflow.db
+      --default-artifact-root /mlflow
+      --host 0.0.0.0
+      --port 5000
+    volumes:
+      - ./mlflow:/mlflow
+    ports:
+      - "5500:5000"
+
+  fastapi_service:
+    build:
+      context: ./model_ser_track
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./ml_model:/app/mlmodel   # mount trained models folder
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    depends_on:
+      - mlflow
+
+  dash_service:
+    build:
+      context: ./dashboard
+    ports:
+      - "8051:8050"
+    environment:
+      - FASTAPI_HOST=http://fastapi_service:8000
+    depends_on:
+      - fastapi_service

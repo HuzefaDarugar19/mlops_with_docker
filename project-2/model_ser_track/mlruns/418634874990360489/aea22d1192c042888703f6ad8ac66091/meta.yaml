@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops_with_docker/project-2/model_ser_track/mlruns/418634874990360489/aea22d1192c042888703f6ad8ac66091/artifacts
+end_time: 1758447989393
+entry_point_name: ''
+experiment_id: '418634874990360489'
+lifecycle_stage: active
+run_id: aea22d1192c042888703f6ad8ac66091
+run_name: fastapi-serve
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758447984434
+status: 3
+tags: []
+user_id: codespace

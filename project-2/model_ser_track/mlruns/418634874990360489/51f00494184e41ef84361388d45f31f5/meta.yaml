@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops_with_docker/project-2/model_ser_track/mlruns/418634874990360489/51f00494184e41ef84361388d45f31f5/artifacts
+end_time: 1758448079336
+entry_point_name: ''
+experiment_id: '418634874990360489'
+lifecycle_stage: active
+run_id: 51f00494184e41ef84361388d45f31f5
+run_name: prediction-requests
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758448079325
+status: 3
+tags: []
+user_id: codespace

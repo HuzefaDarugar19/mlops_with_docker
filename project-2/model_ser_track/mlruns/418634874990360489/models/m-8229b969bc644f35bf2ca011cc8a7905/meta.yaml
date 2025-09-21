@@ -1,0 +1,10 @@
+artifact_location: file:///workspaces/mlops_with_docker/project-2/model_ser_track/mlruns/418634874990360489/models/m-8229b969bc644f35bf2ca011cc8a7905/artifacts
+creation_timestamp: 1758447984444
+experiment_id: '418634874990360489'
+last_updated_timestamp: 1758447989388
+model_id: m-8229b969bc644f35bf2ca011cc8a7905
+model_type: null
+name: linear_regression_model
+source_run_id: aea22d1192c042888703f6ad8ac66091
+status: 2
+status_message: null

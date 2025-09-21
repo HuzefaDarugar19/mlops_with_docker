@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/288595406677720238/02180fdfebca4b0f890a47d103576714/artifacts
+end_time: 1758448373650
+entry_point_name: ''
+experiment_id: '288595406677720238'
+lifecycle_stage: active
+run_id: 02180fdfebca4b0f890a47d103576714
+run_name: fastapi-serve
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758448363031
+status: 3
+tags: []
+user_id: codespace
