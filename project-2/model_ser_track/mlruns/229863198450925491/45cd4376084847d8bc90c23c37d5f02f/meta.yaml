@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/win/Desktop/project-2/model_ser_track/mlruns/229863198450925491/45cd4376084847d8bc90c23c37d5f02f/artifacts
+end_time: 1758394926397
+entry_point_name: ''
+experiment_id: '229863198450925491'
+lifecycle_stage: active
+run_id: 45cd4376084847d8bc90c23c37d5f02f
+run_name: fastapi-serve
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758394913959
+status: 3
+tags: []
+user_id: win

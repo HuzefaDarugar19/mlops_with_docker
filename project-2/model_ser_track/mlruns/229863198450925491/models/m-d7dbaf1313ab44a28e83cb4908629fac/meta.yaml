@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/win/Desktop/project-2/model_ser_track/mlruns/229863198450925491/models/m-d7dbaf1313ab44a28e83cb4908629fac/artifacts
+creation_timestamp: 1758394615113
+experiment_id: '229863198450925491'
+last_updated_timestamp: 1758394628372
+model_id: m-d7dbaf1313ab44a28e83cb4908629fac
+model_type: null
+name: linear_regression_model
+source_run_id: cd9f52b0b5e34d72a2283d305d94d939
+status: 2
+status_message: null

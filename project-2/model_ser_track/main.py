@@ -5,9 +5,12 @@ import numpy as np
 import mlflow
 import mlflow.sklearn
 
+<<<<<<< HEAD
 mlflow.set_tracking_uri("http://mlflow:5000")  
 
 
+=======
+>>>>>>> 74564bc6d69fecb53cef660e16459815ac75ba56
 # Step 1: Create the FastAPI app
 app = FastAPI(title="ML Model API with MLflow")
 
